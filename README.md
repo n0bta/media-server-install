@@ -5,16 +5,15 @@ This script automates the installation of Jellyfin on a Debian-based Linux serve
 ## Prerequisites
 
 * Debian-based server (e.g., Ubuntu)
-* git installed
 * Static IP address configured
 * Docker requirements met
 * Root access
 
 ## Installation
 
+1. Download msi.sh
+2. Execute the script as root
 ```bash
-git clone https://github.com/n0bta/media-server-install.git
-cd media-server-install
 sudo bash msi.sh
 ```
 
