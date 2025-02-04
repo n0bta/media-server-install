@@ -26,11 +26,11 @@
 # For more information, please refer to <https://unlicense.org>
 
 print_status() {
-  echo -ne "\r\t[ ] $1"
+  echo -ne "\t[ ] $1\r"
 }
 
 print_success() {
-  echo -e "\t[x] $1"
+  echo -e "\t[x] $1         "
 }
 
 echo ">>===========================================<<
